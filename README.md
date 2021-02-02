@@ -29,6 +29,7 @@ Example Response:
     }
   ...
 ]
+```
 
 ### Topics
 Endpoint: `/topic`
