@@ -1,0 +1,506 @@
+[
+  {
+    "_id": "5fd89b791bbe5657164463ae",
+    "id": "E",
+    "name": "EMPLOYED",
+    "text": "Employed",
+    "questionText": "I am still employed",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463af",
+    "id": "NE",
+    "name": "NOT_EMPLOYED",
+    "text": "Not Employed",
+    "questionText": "I am no longer employed",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463b0",
+    "id": "EP",
+    "name": "EQUAL_PAY",
+    "text": "Equal pay",
+    "questionText": "Equal pay",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463b1",
+    "id": "T",
+    "name": "DISMISSED",
+    "text": "Dismissed",
+    "questionText": "I have been dismissed",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463b2",
+    "id": "R",
+    "name": "REDUNDANCY",
+    "text": "Redundancy",
+    "questionText": "I was made redudannt",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463b3",
+    "id": "D",
+    "name": "DISCRIMINATION",
+    "text": "Discrimination",
+    "questionText": "Discrimination",
+    "subtopics": [
+      "DP",
+      "DM",
+      "DS",
+      "DSy",
+      "DR",
+      "DRn",
+      "DA",
+      "DD",
+      "DMe",
+      "DG",
+      "DPI",
+      "DMl",
+      "DV"
+    ],
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463b4",
+    "id": "B",
+    "name": "BULLYING",
+    "text": "Bullying",
+    "questionText": "Bullying",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463b5",
+    "id": "P",
+    "name": "PERFORMANCE",
+    "text": "Performance",
+    "questionText": "I failed a performance review",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463b6",
+    "id": "C",
+    "name": "CORONAVIRUS",
+    "text": "Coronavirus",
+    "questionText": "Coronavirus",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463b7",
+    "id": "H",
+    "name": "HEALTH_SAFETY",
+    "text": "Health & Safety",
+    "questionText": "Health & Safety",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463b8",
+    "id": "W",
+    "name": "WHISTLEBLOWING",
+    "text": "Whistleblowing",
+    "questionText": "Whistleblowing",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463b9",
+    "id": "S",
+    "name": "SICKNESS",
+    "text": "Sickness",
+    "questionText": "Sickness",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463ba",
+    "id": "S1",
+    "name": "STAY_EMPLOYED",
+    "text": "Stay employed",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463bb",
+    "id": "Ml",
+    "name": "MENTAL_HEALTH",
+    "text": "Mental health",
+    "questionText": "Mental health",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463bc",
+    "id": "M",
+    "name": "MONEY_OWED",
+    "text": "Money owed",
+    "questionText": "Money owed",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463bd",
+    "id": "Rd",
+    "name": "RESIGNED",
+    "text": "Resigned",
+    "questionText": "I have resigned",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463be",
+    "id": "Sn",
+    "name": "SUSPENSION",
+    "text": "Suspension",
+    "questionText": "I was suspended",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463bf",
+    "id": "Mt",
+    "name": "MISCONDUCT",
+    "text": "Misconduct",
+    "questionText": "Misconduct",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463c0",
+    "id": "F",
+    "name": "FAILURE_TO_PROVIDE_PARTICULARS",
+    "text": "Failure to provide particulars",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463c1",
+    "id": "G",
+    "name": "GRIEVANCE",
+    "text": "Grievance",
+    "questionText": "Grievance",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463c2",
+    "id": "DP",
+    "name": "PREGNANCY",
+    "text": "Pregnancy",
+    "questionText": "Pregnancy",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463c3",
+    "id": "DM",
+    "name": "MATERNITY",
+    "text": "Maternity",
+    "questionText": "Maternity",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463c4",
+    "id": "DS",
+    "name": "SEX",
+    "text": "Sex",
+    "questionText": "Sex",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463c5",
+    "id": "DSy",
+    "name": "SEXUALITY",
+    "text": "Sexuality",
+    "questionText": "Sexuality",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463c6",
+    "id": "DR",
+    "name": "RACE",
+    "text": "Race",
+    "questionText": "Race",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463c7",
+    "id": "DRn",
+    "name": "RELIGION_BELIEF",
+    "text": "Religion / belief",
+    "questionText": "Religion / belief",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463c8",
+    "id": "DA",
+    "name": "AGE",
+    "text": "Age",
+    "questionText": "Age",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463c9",
+    "id": "DD",
+    "name": "DISABILITY",
+    "text": "Disability",
+    "questionText": "Disability",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463ca",
+    "id": "DMe",
+    "name": "MARRIAGE_CIVIL_PARTNERSHIP",
+    "text": "Marriage / Civil partnership",
+    "questionText": "Marriage / Civil partnership",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463cb",
+    "id": "DG",
+    "name": "GENDER_REASSIGNMENT",
+    "text": "Gender reassignment",
+    "questionText": "Gender reassignment",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463cc",
+    "id": "DPl",
+    "name": "POLITICAL_PHILOSOPHICAL",
+    "text": "Political / philosophical",
+    "questionText": "Political / philosophical",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463cd",
+    "id": "DMl",
+    "name": "MENTAL_HEALTH_DISCRIMINATION",
+    "text": "Mental health discrimination",
+    "questionText": "Mental health",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463ce",
+    "id": "DV",
+    "name": "VEGAN",
+    "text": "Vegan",
+    "parentTopics": [
+      "D"
+    ],
+    "type": "subcase"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463cf",
+    "id": "All",
+    "name": "ALL",
+    "text": "All",
+    "type": "case"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463d0",
+    "id": "2y",
+    "name": "LESS_THAN_2_YEARS",
+    "text": "Less than 2 years",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463d1",
+    "id": "M2y",
+    "name": "MORE_THAN_2_YEARS",
+    "text": "More than 2 years",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463d2",
+    "id": "_NE",
+    "name": "NOT_EMPLOYED",
+    "text": "Not employed",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463d3",
+    "id": "_M",
+    "name": "MISCORNDUCT",
+    "text": "Misconduct",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463d4",
+    "id": "NRD",
+    "name": "DISMISSAL_NO_REASON",
+    "text": "No reason for dismissal",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463d5",
+    "id": "ORD",
+    "name": "DISMISSAL_OTHER",
+    "text": "Other reason for dismissal",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463d6",
+    "id": "Dy",
+    "name": "DISCIPLINARY_UNJUSTIFIED",
+    "text": "Unjustified reason for disciplinary",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463d7",
+    "id": "TWE",
+    "name": "TOXIC_WORK_ENVIRONMENT",
+    "text": "Toxic work environment",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463d8",
+    "id": "EW",
+    "name": "EXCESSIVE_WORKLOAD",
+    "text": "Excessive workload",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463d9",
+    "id": "TB",
+    "name": "OTHER_PROBLEMS",
+    "text": "Other problems",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463da",
+    "id": "HD",
+    "name": "REFUSED_ATTEND_HS",
+    "text": "Refused to attend (H&S)",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463db",
+    "id": "ORT",
+    "name": "OTHER_REASON_DISMISSAL",
+    "text": "Other reason for dismissal",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463dc",
+    "id": "V",
+    "name": "VICTIMISATION",
+    "text": "Victimisation",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463dd",
+    "id": "_RNRW",
+    "name": "NO_REDUCTION_WORK",
+    "text": "No reduction of work",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463de",
+    "id": "_RNA",
+    "name": "NO_ALTERNATIVE_CONSIDERED",
+    "text": "Alternative employment not considered",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463df",
+    "id": "_RSI",
+    "name": "SCORING_ISSUES",
+    "text": "Scoring issues",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463e0",
+    "id": "_RSP",
+    "name": "OUTCOME_PREDEFINED",
+    "text": "Selection outcome predetermined",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463e1",
+    "id": "_RPC",
+    "name": "PROBLEMATIC_SELECTION",
+    "text": "Problematic selection criteria",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463e2",
+    "id": "_RNC",
+    "name": "INADEQUATE_CONSULATION",
+    "text": "Inadequate consultation",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463e3",
+    "id": "_NCE",
+    "name": "HAVENT_COMPLAINED",
+    "text": "Haven't complained",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463e4",
+    "id": "_YCE",
+    "name": "COMPLAINED_TO_EMPLOYER",
+    "text": "Complained to employer",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463e5",
+    "id": "_PC",
+    "name": "PROTECTED_CHARACTERISTIC",
+    "text": "Protected characteristic",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463e6",
+    "id": "_Rr",
+    "name": "RISK_OF_REDUNDANCY",
+    "text": "Risk of redundnacy",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463e7",
+    "id": "_UP",
+    "name": "UNJUSTIFIED_PERF_MGMT",
+    "text": "Unjustified performance management",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463e8",
+    "id": "_UDy",
+    "name": "UNJUSTIFIED_DISCIPLINARY",
+    "text": "Unjustified disciplinary proceedings",
+    "type": "employment_situation"
+  },
+  {
+    "_id": "5fd89b791bbe5657164463e9",
+    "id": "_US",
+    "name": "MISHANDLED_SICKNESS",
+    "text": "Poor response to sickness issues",
+    "type": "employment_situation"
+  }
+]
