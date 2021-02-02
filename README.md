@@ -1,6 +1,9 @@
 # Monaco Solicitors backend mock
 An extremely simple backend to fetch `paragraphs` and `topics` on baseUrl `http://localhost:<port>`
 
+## Start
+Just run `yarn start` and you should be good to go.
+
 ## Endpoints
 ### Paragraphs
 Endpoint: `/paragraphs`
